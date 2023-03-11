@@ -9,6 +9,8 @@ export default function Meme() {
       bottomText: "",
       randomImage: "http://i.imgflip.com/1bij.jpg"
     })
+
+    const [allMemeImages, setAllMemeImages] = React.useState(memesData)
     
 
     function buttonClick() {
