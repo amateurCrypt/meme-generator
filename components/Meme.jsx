@@ -22,10 +22,6 @@ export default function Meme() {
           randomImage: url
         }))
     }
-    
-    function imageCalled() {
-        setMemeImage(url)
-    }
 
   return (
     <main className="main">
@@ -43,7 +39,7 @@ export default function Meme() {
         <button onClick={buttonClick} className="form--button">Generate Meme</button>
         <img 
             className="meme--image"
-            src={memeImage} />
+            src={meme.randomImage} />
       </div>
       
     </main>
